@@ -9,7 +9,7 @@ on:
       - main
 
 env:
-  IMAGE_NAME: auth-service-cicd
+  IMAGE_NAME: auth-service-go
   DOCKER_REGISTRY: docker.io
   DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
   DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
