@@ -42,7 +42,7 @@ kubectl get nodes
 ```
 You should see both server and agent nodes in Ready state.
 
-If ```bash kubectl get nodes ```does not work, use this command: 
+If ```kubectl get nodes ```does not work, use this command: 
 ```bash
 kubectl config set-cluster k3d-dev-cluster --server=https://localhost:50272
 ```
