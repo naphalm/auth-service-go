@@ -96,6 +96,7 @@ curl -X POST http://localhost:3000/login \
 curl -X GET http://localhost:3000/validate \
 -H "Authorization: Bearer <JWT_TOKEN>"
 ```
+---
 
 ### Environment variables
 | Name         | Description                        |
