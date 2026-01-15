@@ -1,0 +1,25 @@
+replicaCount: 1
+
+image:
+  repository: karlz007/auth-service-go
+  tag: latest
+
+resources:
+  limits:
+    cpu: "500m"
+    memory: "512Mi"
+  requests:
+    cpu: "250m"
+    memory: "256Mi"
+
+env:
+  JWT_SECRET: "whyisitsohard"
+
+postgresql:
+  auth:
+    username: authuser
+    password: authpass
+    database: authdb
+  primary:
+    persistence:
+      enabled: false
