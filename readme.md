@@ -31,8 +31,8 @@ The service runs on **Kubernetes** using **Helm**, with **PostgreSQL** automatic
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/naphalm/auth-service-cicd.git
-cd auth-service-cicd
+git clone https://github.com/naphalm/auth-service-go.git
+cd auth-service-go
 ```
 
 ### 2. Create a Local Kubernetes Cluster
