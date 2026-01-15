@@ -107,8 +107,11 @@ They are automatically managed by Helm. No .env file is needed.
 
 ### Development Notes
 Go binary is built using a multi-stage Dockerfile
+
 Migration script (migrate.sh) runs on container start
+
 PostgreSQL credentials are injected into the auth-service via Secret
+
 You can customize CPU/memory limits in values.yaml
 
 ### Cleanup
