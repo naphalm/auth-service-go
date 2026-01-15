@@ -32,7 +32,7 @@ The service runs on **Kubernetes** using **Helm**, with **PostgreSQL** automatic
 
 ```bash
 git clone https://github.com/naphalm/auth-service-cicd.git
-cd auth-service
+cd auth-service-cicd
 ```
 
 ### 2. Create a Local Kubernetes Cluster
@@ -65,7 +65,7 @@ auth-service-xxxxxxx             1/1     Running
 auth-service-postgresql-0        1/1     Running
 ```
 
-### 4. Accessing the Service
+### 5. Accessing the Service
 ```bash
 kubectl port-forward svc/auth-service 3000:3000
 ```
